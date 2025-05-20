@@ -7,8 +7,8 @@ document.getElementById("toggle-btn").addEventListener("click", () => {
         submitBtn.textContent = "Sign Up";
         document.getElementById("toggle-text").innerHTML = "Already have an account? <span id='toggle-btn'>Login</span>";
     } else {
-        formTitle.textContent = "Login";
-        submitBtn.textContent = "Login";
+        formTitle.textContent = " Login";
+        submitBtn.textContent = " Login";
         document.getElementById("toggle-text").innerHTML = "Don't have an account? <span id='toggle-btn'>Sign Up</span>";
     }
     attachToggleEvent();
