@@ -147,7 +147,7 @@ button:hover {
         transform: translateY(-20px);
     }
     100% {
-        transform: translateY(0);
+        transform: translateY(10);
     }
 }
 
@@ -158,4 +158,50 @@ button:hover {
     100% {
         transform: translateY(-5px);
     }
+}
+
+/* From Uiverse.io by liyaxu123 */ 
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 290px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #6213e0 solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: #cd0a0a;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: rgb(255, 0, 0);
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  color: #000000;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+  color: rgb(0, 0, 0);
+  transform: translateY(-30px);
 }
