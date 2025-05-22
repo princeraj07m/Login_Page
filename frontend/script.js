@@ -41,6 +41,7 @@ document.getElementById("auth-form").addEventListener("submit", async (event) =>
 
         if (result.success && formTitle === "Login") {
             setTimeout(() => {
+                // add your link here 😉
                 window.location.href = "https://www.youtube.com/";
             }, 500);
         }
