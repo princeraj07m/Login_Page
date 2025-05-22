@@ -20,15 +20,15 @@
 
 ## Description
 
-This project is a user-friendly login page designed with a focus on simplicity and security. It features a clean and responsive frontend built using modern web technologies, and a robust backend powered by Node.js and Express, with secure user authentication handled through SQL.
+This project is a **user-friendly login page** designed with a focus on **simplicity and security**. It features a **clean and responsive frontend** built using modern web technologies, and a **robust backend** powered by Node.js and Express, with secure user authentication handled through SQL.
 
 ## Frontend
 
 The frontend is crafted with:
 
-*   **HTML:** Providing a semantic and accessible structure for the login interface.
-*   **CSS:** Delivering a visually appealing and responsive design for optimal user experience across devices.
-*   **JavaScript:** Implementing interactive elements and handling communication with the backend API for user authentication.
+*   **HTML:** Providing a **semantic and accessible structure** for the [login interface](frontend/index.html).
+*   **CSS:** Delivering a **visually appealing and responsive design** for optimal user experience across devices.
+*   **JavaScript:** Implementing **interactive elements** and handling communication with the backend API for user authentication.
 
 ## Backend
 
@@ -40,7 +40,7 @@ The backend infrastructure is built upon:
 
 ## How to Run
 
-1.  Ensure you have Node.js and npm installed on your system.
+1.  Ensure you have **Node.js** and **npm** installed on your system.
 2.  Navigate to the backend directory:
 
     ```bash
@@ -56,16 +56,16 @@ The backend infrastructure is built upon:
     ```bash
     npm start
     ```
-5.  Open the `frontend/index.html` file in your preferred web browser to access the login page.
+5.  Open the [`frontend/index.html`](frontend/index.html) file in your preferred web browser to access the login page.
 
 ## Dependencies
 
-*   [Express](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js
-*   [SQL](https://www.mysql.com/): A popular relational database management system
+*   [**Express**](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js
+*   [**SQL**](https://www.mysql.com/): A popular relational database management system
 
 ## Assets
 
-*   `login.png`: A visually engaging image incorporated into the login page design.
+*   [`login.png`](frontend/assets/login.png): A visually engaging image incorporated into the login page design.
 
 ## License
 
