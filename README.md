@@ -67,6 +67,4 @@ The backend infrastructure is built upon:
 
 *   [`login.png`](frontend/assets/login.png): A visually engaging image incorporated into the login page design.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
